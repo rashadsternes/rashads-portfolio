@@ -1,7 +1,7 @@
 import { Navbar } from "../components/Navbar";
 import { HeroSection } from "../components/HeroSection";
 import { ProjectsSection } from "../components/ProjectsSection";
-
+import { Footer } from "./Footer";
 
 export const Home = () => {
   return (
@@ -10,8 +10,9 @@ export const Home = () => {
       <main>
         <HeroSection />
         <ProjectsSection />
-
       </main>
+      <Footer />
+
     </div>
   );
 };
